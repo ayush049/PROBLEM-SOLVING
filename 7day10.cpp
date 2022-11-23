@@ -8,7 +8,7 @@ int main(){
     getline(cin,s);
     int dat[25]={0};
     int n=s.length();
-    int j;
+    int i;
     while(s[i]!='\0'){
         dat[s[i]-'a']++;
         i++;
