@@ -5,7 +5,7 @@ using namespace std;
 int main(){
     int n,c,i,j;
     cin>>n;
-    cout<<"Prime factor: ";
+    cout<<"Prime factor: "; 
     for(i=2;i<n;i++){
         if(n%i==0)
              c=1;
